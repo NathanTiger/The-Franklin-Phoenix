@@ -1,0 +1,76 @@
+body{
+    background-image: url('images/bg.png') ;
+    background-size: cover;
+}
+
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:yellow;
+}
+#header1title{
+    text-align: center;
+    color:rgb(199, 83, 37);
+}
+.mainFlutteringPhoenix{
+    width:70px;
+    position: absolute;
+    left:-70px;
+    animation-name:phoenix;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes phoenix{
+    from{transform:translatex(-10vw)}
+    to{transform:translatex(110vw)}
+}
+#issues_border{
+    border:yellow solid 3px;
+    margin-left: 70px;
+    width: 80px;
+    text-align: center;
+}
+#aa{
+    /* border:rgb(219, 176, 96) solid 3px; */
+    width:70px;
+    height:70px;
+    margin-left:80vw ;
+    padding-left: 10px;
+}
+#ab{
+    padding-left: 50vw;
+}
+.back{
+    height:30px;
+}
+.light_blue{
+    color:lightblue;
+}
+#menu_button{
+    height: 30px;
+}
+#about_us_text{
+    width: 500px;
+    margin-left: 40vw;
+    font-weight: bold;
+    padding-left: 10px;
+    border: darkgoldenrod solid 3px;
+    margin-top: 100px;
+}
+#side_menu{
+    width:0;
+    position: fixed;
+    left:0vw;
+    top:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(117, 91, 91);
+    height:90vh;
+    transition: width .2s;
+}
+#side_menu button{
+    margin: 50px;
+}
