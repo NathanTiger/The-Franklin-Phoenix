@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',function(){
         if(side_menu.classList.contains('open')){
             side_menu.classList.remove('open')
         }else{
-            side_menu.classList.add()
+            side_menu.classList.add(open)
         }
     })
     
