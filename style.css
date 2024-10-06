@@ -19,7 +19,7 @@ a:visited{
     left:-70px;
     animation-name:phoenix;
     animation-duration: 5s;
-    animation-delay: 5s;
+    animation-delay: 2s;
     animation-iteration-count: 1;
 }
 @keyframes phoenix{
